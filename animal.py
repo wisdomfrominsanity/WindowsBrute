@@ -83,3 +83,4 @@ def main():
         print("")
         print("KEYBOARD INTERRUPTION EXITING")
         quit()
+Main()
