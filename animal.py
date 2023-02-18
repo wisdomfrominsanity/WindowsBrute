@@ -54,7 +54,7 @@ def animal():
                 guesses += 1
 
         if cracked:
-            print("PASSWORD FOUND {cracked_password}")
+            print(f"PASSWORD FOUND {cracked_password}")
             subprocess.call("sudo rm -f targethashes.txt", shell=True)
             
         else:
