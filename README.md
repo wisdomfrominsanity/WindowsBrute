@@ -14,3 +14,5 @@ Installation:$ sudo apt-get install samdump2
 Run Program:$ sudo Python3 animal.py
 
 Options within program: Use Capital Y or N
+
+Password list may have to be moved to /mnt/ directory 
