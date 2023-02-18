@@ -5,7 +5,7 @@ The brute force only works on Windows Windows NT/2K/XP/Vista harddrives
 
 Requirements:
 linux,
-Windows NT/2K/XP/Vista Windows harddrive with password protected users,
+Windows NT/2K/XP/Vista harddrive with password protected users,
 wordlist sush as Rockyou.txt, and
 samdump2 installed
 
