@@ -1,11 +1,11 @@
 # WindowsBrute
 This Program Only Works on Linux
-The brute force only works on older Windows OS harddrives
+The brute force only works on Windows Windows NT/2K/XP/Vista harddrives
 
 
 Requirements:
 linux,
-old windows harddrive with password protected users,
+Windows NT/2K/XP/Vista Windows harddrive with password protected users,
 wordlist sush as Rockyou.txt, and
 samdump2 installed
 
