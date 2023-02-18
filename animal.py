@@ -46,7 +46,7 @@ def animal():
                 cracked_password = line.rstrip()
                 ntlm_hash = coverted_ntlm(cracked_password)
 
-                print("GUESSES: {guesses}", end="\r")
+                print(f"GUESSES: {guesses}", end="\r")
 
                 if compare_hashes(input_hash, ntlm_hash):
                     cracked = True
