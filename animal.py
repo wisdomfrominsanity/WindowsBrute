@@ -6,7 +6,7 @@ cracked = False
 def mkdir():
     os.chdir("/mnt/")
     print("[+] Directory Changed To /mnt/")
-    os.mkdir("Enter New Name For A Directory: ")
+    os.mkdir(input("Enter New Name For A Directory: "))
     print("[+] Created Directory")
 
 def animal():
