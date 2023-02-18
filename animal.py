@@ -1,8 +1,5 @@
 import hashlib, binascii, os, subprocess
 
-guesses = 1
-cracked = False
-
 def mkdir():
     os.chdir("/mnt/")
     print("[+] Directory Changed To /mnt/")
@@ -10,6 +7,9 @@ def mkdir():
     print("[+] Created Directory")
 
 def animal():
+    guesses = 1
+    cracked = False
+
     def converted_ntml(password):
         ntlm_hash = binascii.hexlify(hashlib.new("md4", password.encode("utf-16le")).digest())
 
