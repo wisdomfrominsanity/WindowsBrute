@@ -55,9 +55,12 @@ def animal():
 
         if cracked:
             print("PASSWORD FOUND: {cracked_password}")
+            subprocess.call("cd " + directory, shell=True
             subprocess.call("sudo rm -f targethashes.txt", shell=True)
+            
         else:
             print("NO PASSWORD FOUND OUT OF {guesses} GUESSES")
+            subprocess.call("cd " + directory, shell=True
             subprocess.call("sudo rm -f targethashes.txt", shell=True)
             subprocess.call("sudo umount windows_harddrive", shell=True) 
 
