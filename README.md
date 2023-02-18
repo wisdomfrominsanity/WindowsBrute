@@ -1,6 +1,6 @@
 # WindowsBrute
 This Program Only Works on Linux
-The brute force only works on Windows Windows NT/2K/XP/Vista harddrives
+The brute force only works on Windows NT/2K/XP/Vista harddrives
 
 
 Requirements:
