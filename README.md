@@ -8,3 +8,5 @@ linux
 old windows harddrive with password protected users
 wordlist sush as Rockyou.txt
 samdump2 installed
+
+Run:$ sudo Python3 animal.py
