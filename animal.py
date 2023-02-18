@@ -15,7 +15,7 @@ def animal():
 
         return ntlm_hash
 
-    def compare_hashes(input, test):
+    def match_hashes(input, test):
         if input == test:
             return True
 
@@ -48,7 +48,7 @@ def animal():
 
                 print(f"GUESSES: {guesses}", end="\r")
 
-                if compare_hashes(input_hash, ntlm_hash):
+                if match_hashes(input_hash, ntlm_hash):
                     cracked = True
 
                 guesses += 1
