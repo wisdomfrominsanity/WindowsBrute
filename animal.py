@@ -23,7 +23,7 @@ def animal():
             return False
 
     os.chdir("/mnt/")
-    directory = input("Enter Name of Your Directory: ")
+    directory = input("Confirm Name of Your Directory: ")
     subprocess.call("sudo fdisk -l")
     windows_harddrive = input("Enter Path To Windows Hard Drive: ") 
     subprocess.call("sudo mount -o ro " + windows_harddrive + " " + directory, shell=True)
