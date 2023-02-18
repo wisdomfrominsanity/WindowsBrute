@@ -1,4 +1,4 @@
-import hashlib, binascii
+import hashlib, binascii, os, subprocess
 
 guesses = 1
 cracked = False
@@ -55,9 +55,11 @@ def animal():
 
         if cracked:
             print("PASSWORD FOUND: {cracked_password}")
-
+            subprocess.call("sudo rm -f targethashes.txt", shell=True)
         else:
             print("NO PASSWORD FOUND OUT OF {guesses} GUESSES")
+            subprocess.call("sudo rm -f targethashes.txt", shell=True)
+            subprocess.call("sudo umount windows_harddrive", shell=True) 
 
 
 def main():
@@ -71,6 +73,10 @@ def main():
             animal()
         elif choice == "N":
             animal()
+        else:
+            print("")
+            print("Invalid Input Exiting")
+            quit()
 
     except KeyboardInterrupt:
         print("")
