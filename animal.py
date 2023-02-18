@@ -43,8 +43,8 @@ def animal():
                 break
 
             else:
-                cracked_password = line.rstrip()
-                ntlm_hash = coverted_ntlm(cracked_password)
+                password = line.rstrip()
+                ntlm_hash = coverted_ntlm(password)
 
                 print(f"GUESSES: {guesses}", end="\r")
 
@@ -54,11 +54,11 @@ def animal():
                 guesses += 1
 
         if cracked:
-            print(f"PASSWORD FOUND {cracked_password}")
+            print(f"PASSWORD FOUND {password}")
             subprocess.call("sudo rm -f targethashes.txt", shell=True)
             
         else:
-            print("NO PASSWORD FOUND")
+            print(f"NO PASSWORD FOUND OUT OF {guesses} GUESSES")
             subprocess.call("sudo rm -f targethashes.txt", shell=True)
             subprocess.call("sudo umount " + windows_harddrive, shell=True) 
 
