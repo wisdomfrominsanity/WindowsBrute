@@ -76,7 +76,7 @@ def main():
             animal()
         else:
             print("")
-            print("Invalid Input Exiting")
+            print("INVAILD INPUT EXITING")
             quit()
 
     except KeyboardInterrupt:
