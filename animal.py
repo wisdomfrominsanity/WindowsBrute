@@ -10,7 +10,7 @@ def animal():
     guesses = 1
     cracked = False
 
-    def converted_ntml(password):
+    def converted_ntlm(password):
         ntlm_hash = binascii.hexlify(hashlib.new('md4', password.encode('utf-16le')).digest())
 
         return ntlm_hash
