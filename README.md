@@ -14,6 +14,7 @@ Run Program:$ sudo python3 animal.py
 Options within program: Use Capital Y or N
 
 When nano text edit appears with Hashes delete all users except your target and save file as is 
+
 (!!!!!DO NOT RENAME NANO FILE!!!!!!)
 
 Password list may have to be moved to /mnt/ directory 
