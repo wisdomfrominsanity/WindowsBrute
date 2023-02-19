@@ -54,7 +54,7 @@ def animal():
                 guesses += 1
 
         if cracked:
-            print(f"PASSWORD FOUND {password_guess}")
+            print(f"PASSWORD FOUND: {password_guess}")
             subprocess.call("sudo rm -f targethashes.txt", shell=True)
             
         else:
@@ -65,7 +65,9 @@ def animal():
 
 def main():
     try:
+        print("..............................................")
         print("                     MENU                     ")
+        print("..............................................")
         print("YOU NEED A EMPTY DIRECTORY IN /mnt/ TO CONTINUE")
         print("")
         choice = input("(Y) Make New Directory (N) Continue: ")
