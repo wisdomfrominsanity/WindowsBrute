@@ -1,9 +1,5 @@
 
-# WindowsBrute sorry for inconvenience this program can only crack one user ntlm hash I'm going to try to fix that hopefully in a few days thank you for your patience :)
-This Program Only Works on Linux
-The brute force only works on Windows XP and Vista harddrives
-
-
+# WindowsBrute
 Requirements:
 linux,
 Windows XP or Vista harddrive with password protected users,
