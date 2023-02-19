@@ -68,7 +68,7 @@ def main():
         print("                     MENU                     ")
         print("..............................................")
         print("EDIT IN NANO WHAT USER YOU WANT TO RUN THE ATTACK WHEN PROMPT SHOWS HASHES") 
-        print("BY DELETING THE OTHER USER HASHES, SAVE AND THEN EXIT")
+        print("DELETE THE OTHER USER HASHES, SAVE AND THEN EXIT NANO")
         print("YOU NEED A EMPTY DIRECTORY IN /mnt/ TO CONTINUE")
         print("")
         choice = input("(Y) Make New Directory (N) Continue: ")
