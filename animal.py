@@ -70,7 +70,7 @@ def main():
         print("..............................................")
         print("                     MENU                     ")
         print("..............................................")
-        print("EDIT IN NANO WHAT USER YOU WANT TO RUN THE ATTACK WHEN PROMPT SHOWS HASHES") 
+        print("EDIT IN NANO WHAT HASH YOU WANT TO RUN THE ATTACK WHEN PROMPT SHOWS HASHES") 
         print("DELETE THE OTHER USER HASHES, SAVE AND THEN EXIT NANO")
         print("YOU NEED A EMPTY DIRECTORY IN /mnt/ TO CONTINUE")
         print("")
