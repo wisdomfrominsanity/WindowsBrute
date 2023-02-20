@@ -35,7 +35,7 @@ def animal():
     with open("targethashes.txt"), "r") as input_file:
         input_hash = input_file.readlines()
 
-    with open(input("Enter Name of Password List: "), "r", errors="ignore") as password_list:
+    with open(input("Enter Path to Your Password List: "), "r", errors="ignore") as password_list:
         
         for line in password_list:
             if cracked:
