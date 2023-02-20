@@ -33,7 +33,7 @@ def animal():
     subprocess.call("sudo nano targethashes.txt", shell=True)
 
     with open("targethashes.txt"), "r") as input_file:
-        input_hash = input_file.readlines()
+        input_hash = input_file.readline()
 
     with open(input("Enter Path to Your Password List: "), "r", errors="ignore") as password_list:
         
