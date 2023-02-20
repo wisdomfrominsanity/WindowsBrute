@@ -24,7 +24,9 @@ def animal():
 
     os.chdir("/mnt/")
     directory = input("Confirm Name of Your Directory: ")
+    print("..............................................") 
     subprocess.call("sudo fdisk -l")
+    print("..............................................")
     windows_harddrive = input("Enter Path To Windows Hard Drive: ") 
     subprocess.call("sudo mount -o ro " + windows_harddrive + " " + directory, shell=True)
     subprocess.call("sudo cp /mnt/" + directory + "/Windows/System32/config/SAM .", shell=True)
