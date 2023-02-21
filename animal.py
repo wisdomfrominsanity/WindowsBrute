@@ -34,6 +34,7 @@ def animal():
 
     if choice == "Y":
         clone()
+        animal()
     elif choice == "N":
         os.chdir("/mnt/")
         directory = input("Confirm Name of Your Directory: ")
