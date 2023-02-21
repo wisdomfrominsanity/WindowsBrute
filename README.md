@@ -17,5 +17,3 @@ When Nano text editor appears with Hashes delete all users and hashes except you
 
 (!!!!!DO NOT RENAME NANO FILE!!!!!!)
 
-(ONLY WORKS WITH IDE/SATA DOCKING STATIONS)
-
