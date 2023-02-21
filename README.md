@@ -13,6 +13,6 @@ Run Program:$ sudo python3 animal.py
 
 Options within program: Use Capital Y or N
 
-When Nano text editor appears with Hashes delete all users and hashes except your target NTLM Hash. Save file and Exit Nano to Continue
+When Nano text editor appears with Hashes delete all users and hashes except your target Hash located after last ":" 32 character in length NTLM. Save file and Exit Nano to Continue
 
 (!!!!!DO NOT RENAME NANO FILE!!!!!!)
