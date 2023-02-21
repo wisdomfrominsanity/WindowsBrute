@@ -1,5 +1,13 @@
 import hashlib, binascii, os, subprocess
 
+
+def clone():
+    inputfile = input("Enter Path to your Disk: ")
+    outputfile = input("(include .img ) Enter Name of New Image file: ")
+    blocksize = input("(Example: 3M) Enter Desired Block Size: ")
+ 
+    subprocess.call("sudo dd if=" + inputfile + " of=" + outputfile + " bs=" + blocksize + " conv=noerror status=progress", shell=True)
+
 def mkdir():
     os.chdir("/mnt/")
     print("[+] Directory Changed To /mnt/")
