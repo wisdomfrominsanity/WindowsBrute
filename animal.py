@@ -4,9 +4,9 @@ import hashlib, binascii, os, subprocess
 def clone():
     os.chdir("/mnt/")
 
-    print("....................................................")
+    print("............................................")
     subprocess.call("sudo fdisk -l", shell=True)
-    print("....................................................")
+    print("............................................")
 
     inputfile = input("Enter Path to your Disk: ")
     outputfile = input("(include .img ) Enter Name of New Image file: ")
@@ -38,9 +38,9 @@ def animal():
 
     os.chdir("/mnt/")
     directory = input("Confirm Name of Your Directory: ")
-    print("..............................................") 
+    print("............................................") 
     subprocess.call("sudo fdisk -l", shell=True)
-    print("..............................................")
+    print("............................................")
     windows_harddrive = input("Enter Path To Windows Disk or Disk Image: ") 
     subprocess.call("sudo mount -o ro " + windows_harddrive + " " + directory, shell=True)
     subprocess.call("sudo cp /mnt/" + directory + "/Windows/System32/config/SAM .", shell=True)
@@ -80,9 +80,9 @@ def animal():
 
 def main():
     try:
-        print("..............................................")
-        print("                     MENU                     ")
-        print("..............................................")
+        print("............................................")
+        print("                     MENU                   ")
+        print("............................................")
         print("EDIT IN NANO WHAT HASH YOU WANT TO RUN THE ATTACK WHEN PROMPT SHOWS HASHES") 
         print("DELETE THE OTHER USER HASHES, SAVE AND THEN EXIT NANO")
         print("YOU NEED A EMPTY DIRECTORY IN /mnt/ TO CONTINUE")
