@@ -1,5 +1,5 @@
 
-# WindowsBrute
+# WindowsBrute (PROJECT FINISHED)
 Requirements:
 linux,
 Windows XP or Vista harddrive with password protected users,
