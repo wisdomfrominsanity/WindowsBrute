@@ -1,5 +1,5 @@
 
-# WindowsBrute (ONLY USE ON A DRIVE YOU OWN) !!!NOT FOR UNLAWFUL USE!!!
+# WindowsBrute (ONLY USE ON A DRIVE YOU OWN) NOT FOR UNLAWFUL USE!!!
 Requirements:
 linux,
 Windows XP or Vista harddrive with password protected users,
