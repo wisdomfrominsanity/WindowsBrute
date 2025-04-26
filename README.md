@@ -17,3 +17,5 @@ When Nano text editor appears with Hashes delete all users and hashes except you
 
 (!!!!!DO NOT RENAME NANO FILE!!!!!!)
 
++ I Recommend Cloning your Hard Drive First and Making a Backup Before Running This Program
+
