@@ -1,8 +1,8 @@
 
 # WindowsBrute (ONLY USE ON A DRIVE YOU OWN) NOT FOR UNLAWFUL USE!!!
 Requirements:
-linux,
-Windows XP or Vista harddrive with password protected users,
+A Linux computer,
+Windows XP or Vista hard drive with password protected users,
 wordlist sush as Rockyou.txt, and
 samdump2 installed
 nano installed
