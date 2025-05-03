@@ -3,7 +3,7 @@
 Requirements:
 A Linux computer,
 Windows XP or Vista hard drive with password protected users,
-wordlist sush as Rockyou.txt, and
+wordlist such as Rockyou.txt, and
 samdump2 installed
 nano installed
 
